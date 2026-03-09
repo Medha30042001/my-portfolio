@@ -39,7 +39,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://linkedin.com/in/YOUR-LINKEDIN"
+            href="https://www.linkedin.com/in/medha-adepu-751368214/"
             target="_blank"
             rel="noopener noreferrer"
             className="border px-6 py-3 rounded-lg hover:bg-secondary hover:text-black transition"
