@@ -1,5 +1,7 @@
 import React from "react";
 import webdevGirl from "../assets/webdevGirl.png";
+import resume from '../assets/resume.pdf'
+
 
 const Home = () => {
   return (
@@ -29,7 +31,7 @@ const Home = () => {
             </a>
 
             <a
-              href="/src/assets/resume.pdf"
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
               className="border px-6 py-3 rounded-lg hover:bg-white hover:text-black transition"
