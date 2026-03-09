@@ -6,9 +6,11 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full bg-primary/80 backdrop-blur-md z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
 
-        <h1 className="font-bold text-xl text-secondary">
+
+        <a href="#home" className="font-bold text-xl text-secondary">
           Medha
-        </h1>
+        </a>
+     
 
         <ul className="hidden md:flex gap-8 text-gray-300">
           <li><a href="#home" className="hover:text-secondary">Home</a></li>
