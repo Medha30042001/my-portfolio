@@ -1,6 +1,12 @@
 import React from "react";
 
 const Contact = () => {
+
+  const copyEmail = () => {
+    navigator.clipboard.writeText("medha.adepucse@gmail.com");
+    alert("Email copied to clipboard!");
+  };
+
   return (
     <section id="contact" className="py-24 bg-primary">
 
@@ -16,12 +22,12 @@ const Contact = () => {
 
         <div className="flex flex-col md:flex-row justify-center gap-6">
 
-          <a
-            href="mailto:medha.adepucse@gmail.com"
+          <button
+            onClick={copyEmail}
             className="border px-6 py-3 rounded-lg hover:bg-secondary hover:text-black transition"
           >
-            Email
-          </a>
+            Copy Email
+          </button>
 
           <a
             href="https://github.com/Medha30042001"
@@ -33,7 +39,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://linkedin.com/in/YOUR-LINKEDIN"
             target="_blank"
             rel="noopener noreferrer"
             className="border px-6 py-3 rounded-lg hover:bg-secondary hover:text-black transition"
