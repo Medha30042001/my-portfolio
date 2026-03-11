@@ -51,7 +51,7 @@ const ProjectCard = ({ image, title, description, demo, github, stack }) => {
             rel="noopener noreferrer"
             className="border px-4 py-2 rounded text-white hover:bg-gray-300 hover:text-black transition"
           >
-            GitHub
+            GitHub Repo
           </a>
 
         </div>
